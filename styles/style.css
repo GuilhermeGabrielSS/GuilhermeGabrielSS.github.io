@@ -35,6 +35,9 @@ body {
     color: var(--cor-terciaria);
     text-decoration: none;    
 }
+.cabecalho__menu__link:hover {
+    color: var(--cor-secundaria);
+}
 .apresentacao {
     padding: 3% 20%;
     display: flex;
@@ -97,11 +100,17 @@ body {
     border-radius: 50%;
     border: solid var(--cor-terciaria) 5px;
 }
+.apresentacao__imagem:hover {
+    border: solid var(--cor-secundaria);
+}
 .imagem {
     width: 50%;
     height: 50%;
     border-radius: 10%;
     border: solid var(--cor-terciaria) 5px;
+}
+.imagem:hover {
+    border: solid var(--cor-secundaria);
 }
 .rodape {
     color: var(--cor-primaria);
