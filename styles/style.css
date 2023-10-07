@@ -101,7 +101,7 @@ body {
     border: solid var(--cor-terciaria) 5px;
 }
 .apresentacao__imagem:hover {
-    border: solid var(--cor-secundaria);
+    border: solid var(--cor-secundaria) 5px;
 }
 .imagem {
     width: 50%;
@@ -110,7 +110,7 @@ body {
     border: solid var(--cor-terciaria) 5px;
 }
 .imagem:hover {
-    border: solid var(--cor-secundaria);
+    border: solid var(--cor-secundaria) 5px;
 }
 .rodape {
     color: var(--cor-primaria);
